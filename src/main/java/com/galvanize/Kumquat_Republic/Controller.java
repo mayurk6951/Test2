@@ -1,6 +1,7 @@
 package com.galvanize.Kumquat_Republic;
 
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -11,8 +12,9 @@ import java.util.Optional;
 
 @RestController
 
-public class Controller<i> {
+public class Controller {
 
+    @Autowired
 objectRepository objectRepository;
 
 
