@@ -13,7 +13,7 @@ import java.util.Optional;
 
 public class Controller<i> {
 
-
+objectRepository objectRepository;
 
 
     @PostMapping("product/brand/{brand}")
